@@ -1,0 +1,34 @@
+{
+    "name": "jolloit/laravel-base",
+    "description": "Modulo Base di Laravel - Jollo",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jolloit\\LaravelBase\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jolloit\\LaravelBase\\LaravelBaseServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "jolloit",
+            "email": "admin@jollo.it"
+        },
+        {
+            "name": "Giovanni Caini",
+            "email": "giovanni@jollo.it"
+        },
+        {
+            "name": "Lorenzo Bonzi",
+            "email": "lorenzo@jollo.it"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
